@@ -9,5 +9,5 @@
 
 ### Node JS
 
-*[User token authentication] (https://babusuriyanarayanan.github.io/user-token)
+* [User token authentication] (https://babusuriyanarayanan.github.io/user-token)
 
