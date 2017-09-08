@@ -1,15 +1,19 @@
 
-Reactive Form
+# Reactive Form
 
 Reactive Forms are model driven.
 
-Terminology :
+## Terminology :
 
-FormControl - each DOM element will have a form control object which tracks the element value, validation status.  
+### FormControl - each DOM element will have a form control object which tracks the element value, validation status. 
 
+```javascript
 name = new FormControl('',[Validators.required])
+````
 
-FormGroup: a group of FormControl instances. 
+### FormGroup: a group of FormControl instances. 
+
+```javascript
 
 this.user = new FormGroup({
 firstName = new FormControl('',[Validators.required]),
@@ -17,7 +21,11 @@ middleName = new FormControl(),
 lastName = new FormControl('',[Validators.required]),
 });
 
-Nested Form Group:
+````
+
+#### Nested Form Group:
+
+```javascript
 
 this.user = new FormGroup({
 firstName = new FormControl('',[Validators.required]),
@@ -30,3 +38,5 @@ city = new FormControl(),
 state= new FormControl()
 })
 });
+
+````
