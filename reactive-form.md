@@ -16,9 +16,9 @@ name = new FormControl('',[Validators.required])
 ```javascript
 
 this.user = new FormGroup({
-firstName = new FormControl('',[Validators.required]),
-middleName = new FormControl(),
-lastName = new FormControl('',[Validators.required]),
+  firstName = new FormControl('',[Validators.required]),
+  middleName = new FormControl(),
+  lastName = new FormControl('',[Validators.required])
 });
 
 ````
@@ -28,15 +28,15 @@ lastName = new FormControl('',[Validators.required]),
 ```javascript
 
 this.user = new FormGroup({
-firstName = new FormControl('',[Validators.required]),
-middleName = new FormControl(''),
-lastName = new FormControl('',[Validators.required]),
-this.address = new FormGroup({
-addressLine1 = new FormControl(''),
-addressLine2 = new FormControl(),
-city = new FormControl(),
-state= new FormControl()
-})
+  firstName = new FormControl('',[Validators.required]),
+  middleName = new FormControl(''),
+  lastName = new FormControl('',[Validators.required]),
+  this.address = new FormGroup({
+    addressLine1 = new FormControl(''),
+    addressLine2 = new FormControl(),
+    city = new FormControl(),
+    state= new FormControl()
+  })
 });
 
 ````
